@@ -1,7 +1,9 @@
 require 'spec_helper'
 
 describe "UserPages" do
-  subject { pages }
+
+  subject { page }
+
   describe "sign up page" do
     before { visit signup_path }
 
